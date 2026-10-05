@@ -1,0 +1,20 @@
+# ============================================================
+# Report Action Bot - Configuration
+# ============================================================
+
+# Your Discord Bot Token
+# Get it from https://discord.com/developers/applications → Bot → Reset Token
+bot-token: "PUT_YOUR_BOT_TOKEN_HERE"
+
+# Must be EXACTLY the same as in the Minecraft companion plugin
+secret-key: "change-me-to-a-very-long-random-string-12345"
+
+# Minecraft server address (where the companion plugin is running)
+minecraft-host: "127.0.0.1"
+minecraft-port: 8123
+
+# Channel ID where the bot can post reports (optional)
+report-channel-id: ""
+
+# Bot status text
+status: "Watching reports"
