@@ -1,0 +1,28 @@
+# ============================================================
+# ReportActionPlugin - Companion for Discord buttons
+# ============================================================
+
+# Port the HTTP server listens on
+# The Discord bot must be able to reach this port
+port: 8123
+
+# Secret key - MUST be the same in the Discord bot config
+# Change this to a long random string!
+secret-key: "change-me-to-a-very-long-random-string-12345"
+
+# Commands that will be executed on the server
+# %player%  = player name
+# %reason%  = reason
+# %duration% = duration (for tempban)
+#
+# These work with vanilla, EssentialsX, LiteBans, AdvancedBan, etc.
+# Just change the command format to match your punishment plugin.
+
+commands:
+  ban: "ban %player% %reason%"
+  tempban: "tempban %player% %duration% %reason%"
+  mute: "mute %player% %reason%"
+  kick: "kick %player% %reason%"
+
+# Message sent to console when an action is received
+log-actions: true
