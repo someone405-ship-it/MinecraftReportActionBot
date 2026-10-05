@@ -1,0 +1,6 @@
+name: ReportActionPlugin
+version: '${project.version}'
+main: com.reportaction.ReportActionPlugin
+api-version: '1.21'
+author: someone405
+description: Companion plugin for Discord Report Action Bot - executes ban/mute/kick from Discord buttons
